@@ -1,0 +1,177 @@
+
+/*------------------------------------*\
+    #GENERAL
+\*------------------------------------*/
+
+a {
+  color: #a25aa1;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #a25aa1;
+}
+
+.bg-default {
+  background-color: #a25aa1;
+}
+
+::-moz-selection {
+  text-shadow: none;
+  color: white;
+  background: #a25aa1;
+}
+::selection {
+  text-shadow: none;
+  color: white;
+  background: #a25aa1;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #a25aa1;
+}
+
+header .intro-text .intro-heading {
+  color: #a25aa1;
+}
+
+section#cta {
+  background-color: #a25aa1;
+}
+
+.bg-dark {
+	background-color: #5d515f;
+}
+
+/* FONT AWESOME CIRCLE BACKGROUND */
+
+.custom-icon:hover {
+  background:#a25aa1;
+  color: #fff;
+  border:3px solid #8c8c8c;
+}
+
+/*------------------------------------*\
+    #NAVIGATION
+\*------------------------------------*/
+
+.navbar-custom .navbar-brand {
+  color: #a25aa1;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #a25aa1;
+}
+
+.navbar-custom .navbar-toggle {
+  background-color: #a25aa1;
+  border-color: #a25aa1;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #a25aa1;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #a25aa1;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+  color: #a25aa1;
+}
+
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #a25aa1;
+  background-color: white;
+}
+
+
+
+/*------------------------------------*\
+    #MAILCHIMP FORM
+\*------------------------------------*/
+
+#mc_embed_signup .button {
+	color: #a25aa1;
+	border-bottom: 3px solid #c7dfee;
+}
+
+#mc_embed_signup input:focus {
+	background: #b06baf;
+}
+
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #a25aa1;
+  border-color: #a25aa1;
+}
+.btn-primary .badge {
+  color: #a25aa1;
+  background-color: white;
+}
+.btn-xl {
+  color: white;
+  background-color: #a25aa1;
+  border-color: #a25aa1;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+  background-color: #a25aa1;
+  border-color: #a25aa1;
+}
+.btn-xl .badge {
+  color: #a25aa1;
+  background-color: white;
+}
+
+.btn-primary:active {
+	color: #a25aa1 !important;
+}

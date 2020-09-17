@@ -1,0 +1,713 @@
+/**
+ * Author: potpourri media
+ * Author email: cl6040@gmail.com
+ * Description: A eBook & Lead Magnet Landing Page.
+ * Version: 1.0
+ * 
+ * 1.  #BODY
+ * 2.  #HEADER
+ * 3.  #NAVIGATION
+ * 4.  #SECTIONS
+ * 5.  #CALL TO ACTION
+ * 6.  #FOOTER  
+ * 7.  #BUTTONS
+ * 8.  #MAILCHIMP FORM
+ * 9.  #TESTIMONIALS
+ * 10. #MISC
+ * 12. #MEDIA QUERIES
+ */
+
+
+/*------------------------------------*\
+    #BODY
+\*------------------------------------*/
+
+body {
+    overflow-x: hidden;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.text-muted {
+    color: #858585;
+}
+
+.text-primary {
+    color: #414141;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.textblock {
+    padding: 20px;
+}
+
+.textblock-center {
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+p.large {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.check-list {
+    list-style: none;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 0 0 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #414141;
+}
+
+.check-list i {
+    padding-right: 8px;
+}
+
+.fa-check {
+    color: #24ae5f;
+    font-size: 20px;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.ebook {
+    position: absolute;
+    top: -430px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.bg-light-gray {
+    background-color: #eeeeee;
+}
+
+.bg-darkest-gray {
+    background-color: #222222;
+}
+
+.bg-lmgreen {
+    background-color: #4cad49;
+}
+
+.btn-primary {
+    color: black;
+    background: white;
+    border: 2px solid #fff;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px;
+    width: 60%;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #414141;
+    background-color: #4cad49;
+    border-color: #fff;
+}
+
+.btn-primary:active {
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    color: #414141;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+
+/*------------------------------------*\
+    #HEADER
+\*------------------------------------*/
+
+header {
+    text-align: center;
+    color: white;
+}
+
+header .intro-text {
+    color: #4cad49;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+header .intro-text .intro-heading {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.logo {
+    margin-top: -4px;
+    margin-right: 20px;
+}
+
+
+/*------------------------------------*\
+    #NAVIGATION
+\*------------------------------------*/
+
+.navbar-custom {
+    background-color: #f8f8f8 !important;
+    border-color: transparent;
+}
+
+.navbar-custom .navbar-collapse {
+    border-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+.navbar-custom .navbar-toggle {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+}
+
+.navbar-custom .nav li a {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #8c8c8c;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+    outline: none;
+}
+
+.navbar-custom .navbar-nav>.active>a {
+    border-radius: 0;
+    background-color: white;
+}
+
+.navbar-custom .navbar-nav>.active>a:hover,
+.navbar-custom .navbar-nav>.active>a:focus {
+    color: white;
+}
+
+.social-icons {
+    font-size: 20px;
+}
+
+
+/*------------------------------------*\
+    #SECTIONS
+\*------------------------------------*/
+
+section {
+    padding: 80px 0;
+}
+
+section h2.section-heading {
+    color: #000000;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+section h3.section-subheading {
+    font-size: 18px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: black;
+    text-transform: none;
+    line-height: 24px;
+    font-weight: 400;
+    width: 75%;
+    margin: 0 auto 75px auto;
+}
+
+#features {
+    padding: 40px 0 20px 0;
+}
+
+.box {
+    background: #f8f8f8;
+    padding: 20px 20px 15px 20px;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 20px;
+}
+
+.box-heading {
+    font-size: 20px;
+    margin: 15px 0;
+    text-transform: none;
+}
+
+.box h5 {
+    color: #858585;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: -5px !important;
+}
+
+aside.clients img {
+    margin: 50px auto;
+}
+
+
+/*------------------------------------*\
+    #CALL TO ACTION
+\*------------------------------------*/
+
+section#cta .section-heading {
+    color: black;
+}
+
+section#cta .section-subheading {
+    margin-bottom: 40px;
+}
+
+section#cta button {
+    margin-bottom: 20px;
+}
+
+
+/*------------------------------------*\
+    #FOOTER
+\*------------------------------------*/
+
+footer {
+    padding: 25px 0;
+}
+
+footer span.copyright {
+    line-height: 40px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none;
+}
+
+footer ul.quicklinks {
+    float: right;
+    margin-bottom: 0;
+    line-height: 40px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-transform: none;
+}
+
+
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: none;
+}
+
+
+/*------------------------------------*\
+    #MAILCHIMP FORM
+\*------------------------------------*/
+
+#mc_embed_signup .name,
+#mc_embed_signup .email {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: none;
+    border: none;
+    border-bottom: 3px solid #fff;
+    font-size: 18px;
+    color: #000000;
+    opacity: 0.4;
+}
+
+#mc_embed_signup input:focus {
+    border-bottom: 3px solid #fff;
+    opacity: 1;
+    outline-color: transparent;
+    outline-style: none;
+}
+
+#mc_embed_signup .button {
+    background: #fff !important;
+    margin-top: 20px;
+    padding: 15px 60px 15px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border-bottom: none !important;
+}
+
+#mc_embed_signup .button:hover {
+    background: #eee !important;
+    border-bottom: none;
+}
+
+
+/*------------------------------------*\
+    #TESTIMONIALS
+\*------------------------------------*/
+
+#testimonial .section-subheading {
+    opacity: 0.6;
+}
+
+.quote-name {
+    font-weight: bold;
+    color: #000;
+}
+
+.testimonials blockquote {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border: medium none;
+    color: #666;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 0px;
+    padding: 50px 20px 30px 20px;
+    position: relative;
+    z-index: 99;
+}
+
+.testimonials blockquote::before {
+    width: 0;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    content: " ";
+    display: block;
+    position: absolute;
+}
+
+.testimonials blockquote::after {
+    width: 0;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    content: " ";
+    display: block;
+    position: absolute;
+}
+
+.testimonials blockquote:hover {
+    background: #fff;
+}
+
+.testimonials .carousel-info img {
+    border-radius: 150px !important;
+    border: 2px solid #fff;
+    height: 75px;
+    width: 75px;
+    display: block;
+    position: absolute;
+    top: -60px;
+    left: 38.5%;
+    z-index: 9999;
+}
+
+.testimonials .carousel-info span {
+    display: block;
+}
+
+.testimonials span.testimonials-name {
+    color: #e6400c;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 23px 0 7px;
+}
+
+.testimonials span.testimonials-post {
+    color: #656565;
+    font-size: 12px;
+}
+
+
+/*------------------------------------*\
+    #MISC
+\*------------------------------------*/
+
+::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 18px;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+}
+
+
+/* FONT AWESOME CIRCLE BACKGROUND */
+
+.custom-icon {
+    font-size: 36px;
+    background: #fff;
+    padding: 25px;
+    -webkit-border-radius: 1100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    border: 3px solid #d7d7d7;
+    color: #d7d7d7;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.fix-editor {
+    display: none;
+}
+
+.icon-wrapper {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+
+/*------------------------------------*\
+    #MEDIA QUERIES
+\*------------------------------------*/
+
+@media only screen and (min-width: 992px) {
+    header .intro-text .intro-heading {}
+    .testimonials .col-md-3 .carousel-info img {
+        top: -18px !important;
+        left: 38% !important;
+    }
+    .testimonials .col-md-4 .carousel-info img {
+        top: -18px !important;
+        left: 40.5% !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .social-icons {
+        display: none;
+    }
+    header .intro-text .intro-heading {}
+}
+
+@media only screen and (max-width: 768px) {
+    .testimonials .col-md-3 .carousel-info img {
+        left: 41% !important;
+    }
+    .ebook {
+        margin-left: 106px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .ebook {
+        margin-left: 0px;
+    }
+    .testimonials .col-md-3 .carousel-info img {
+        top: -18px !important;
+        left: 38% !important;
+    }
+    .testimonials .col-md-4 .carousel-info img {
+        top: -18px !important;
+        left: 40.5% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    header .intro-text {
+        padding-top: 120px;
+        padding-bottom: 20px;
+    }
+    header .intro-text .intro-lead-in {
+        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-style: italic;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    header .intro-text .intro-heading {
+        font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 42px;
+        line-height: 54px;
+        margin-bottom: 50px !important;
+    }
+    section {
+        padding: 80px 0;
+    }
+    .testimonials blockquote {
+        padding: 50px 20px 30px 20px;
+    }
+    .navbar-custom {
+        background-color: transparent;
+        padding: 25px 0;
+        -webkit-transition: padding 0.3s;
+        -moz-transition: padding 0.3s;
+        transition: padding 0.3s;
+        border: none;
+    }
+    .navbar-custom .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        height: 50px;
+        padding: 0px 15px;
+    }
+    .navbar-custom .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+    .navbar-custom.affix {
+        background-color: #fff;
+        padding: 10px 0;
+        border-bottom: 1px solid #868f9a;
+    }
+    .navbar-custom.affix .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (min-width:320px) {
+    header .intro-text .intro-heading {
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: -30px;
+    }
+    #mc_embed_signup input.button {
+        width: 100% !important;
+        padding: 20px 60px 18px;
+        font-size: 18px;
+    }
+    .testimonials .carousel-info img {
+        top: 10px !important;
+        left: 43% !important;
+    }
+    .testimonials blockquote {
+        margin-top: 20px;
+        padding: 60px 20px 30px 20px;
+    }
+}
+
+@media (max-width:320px) {
+    #mc_embed_signup input.button {
+        width: 100% !important;
+        padding: 20px 60px 18px;
+        font-size: 18px;
+    }
+    .testimonials .carousel-info img {
+        top: -30px;
+        left: 43%;
+    }
+    .ebook {
+        margin-left: 0px;
+    }
+    .testimonials blockquote {
+        margin-top: 50px;
+        padding: 60px 20px 30px 20px;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 950px) {
+    .ebook {
+        position: inherit;
+        top: -40px;
+    }
+    #mc_embed_signup input.button {
+        width: 100% !important;
+        padding: 20px 60px 18px;
+        font-size: 18px;
+    }
+    .testimonials blockquote {
+        margin-top: 50px;
+        padding: 60px 20px 30px 20px;
+    }
+    footer .col-md-6 {
+        text-align: center !important;
+    }
+    footer .quicklinks {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .ebook {
+        position: inherit;
+        top: -40px;
+    }
+}
